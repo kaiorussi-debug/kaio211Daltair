@@ -60,12 +60,24 @@
 
         .hero-section {
             text-align: center;
-            margin-bottom: 50px;
+            margin-bottom: 40px;
         }
 
         .hero-section p {
             font-size: 1.2rem;
             color: #a3a3a3;
+        }
+
+        .video-container {
+            display: flex;
+            justify-content: center;
+            margin: 30px 0;
+        }
+
+        .video-container iframe {
+            max-width: 100%;
+            border: 2px solid var(--main-red);
+            box-shadow: 0 4px 15px rgba(255, 70, 85, 0.2);
         }
 
         .grid-funcoes {
@@ -112,7 +124,11 @@
     <main>
         <section id="sobre" class="hero-section">
             <h2>O que é Valorant?</h2>
-            <p>Valorant é un jogo de tiro tático 5v5 focado em personagens, desenvolvido e publicado pela Riot Games. O jogo combina mecânicas de tiro de alta precisão com habilidades únicas de personagens (Agentes), onde a estratégia e a coordenação da equipe são fundamentais para a vitória.</p>
+            <p>Valorant é um jogo de tiro tático 5v5 focado em personagens, desenvolvido e publicado pela Riot Games. O jogo combina mecânicas de tiro de alta precisão com habilidades únicas de personagens (Agentes), onde a estratégia e a coordenação da equipe são fundamentais para a vitória.</p>
+            
+            <div class="video-container">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/3kMr6JCbppI?si=av5fZW_BVK-V9jjM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
         </section>
 
         <hr style="border: 0; border-top: 1px solid #292929; margin: 40px 0;">
@@ -147,7 +163,7 @@
             <h2>Modos de Jogo Principais</h2>
             <ul>
                 <li><strong>Competitivo (Ranked):</strong> O modo principal, onde os jogadores sobem de elo (ferro ao radiante) em partidas de até 25 rodadas.</li>
-                <li><strong>Sem Ranque Que (Unrated):</strong> Mesma estrutura do competitivo, mas sem afetar sua classificação de elo.</li>
+                <li><strong>Sem Ranque (Unrated):</strong> Mesma estrutura do competitivo, mas sem afetar sua classificação de elo.</li>
                 <li><strong>Disparada (Spike Rush):</strong> Um modo rápido e casual de aproximadamente 10 minutos com armas aleatórias.</li>
                 <li><strong>Mata-Mata (Deathmatch):</strong> Ideal para treinar a mira, onde cada um joga por si e o foco é apenas o confronto mecânico.</li>
             </ul>
